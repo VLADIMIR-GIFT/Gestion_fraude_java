@@ -2,7 +2,6 @@ package fr.eseo.gestionfraudes.modele.fraude;
 
 import java.time.LocalDate;
 
-/** Fraude au moyen d'une intelligence artificielle generative (nom du service). */
 public class FraudeIAG extends Fraude {
 
     private String nomService;

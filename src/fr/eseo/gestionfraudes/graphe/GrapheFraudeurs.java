@@ -6,7 +6,6 @@ import fr.eseo.gestionfraudes.modele.Formulaire;
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class GrapheFraudeurs {
 
     private List<Etudiant> sommets;
@@ -17,7 +16,6 @@ public class GrapheFraudeurs {
         this.voisins = new ArrayList<>();
     }
 
-
     public void construire(List<Formulaire> formulaires) {
         sommets = new ArrayList<>();
         voisins = new ArrayList<>();
@@ -25,11 +23,9 @@ public class GrapheFraudeurs {
         for (Formulaire f : formulaires) {
             List<Etudiant> etudiants = f.getEtudiants();
 
-
             for (Etudiant e : etudiants) {
                 ajouterSommet(e);
             }
-
 
             for (int i = 0; i < etudiants.size(); i++) {
                 for (int j = i + 1; j < etudiants.size(); j++) {
@@ -39,14 +35,12 @@ public class GrapheFraudeurs {
         }
     }
 
-
     private void ajouterSommet(Etudiant e) {
         if (!sommets.contains(e)) {
             sommets.add(e);
             voisins.add(new ArrayList<>());
         }
     }
-
 
     private void ajouterArete(Etudiant a, Etudiant b) {
         List<Etudiant> voisinsDeA = voisins.get(sommets.indexOf(a));
@@ -60,11 +54,9 @@ public class GrapheFraudeurs {
         }
     }
 
-
     public int nombreSommets() {
         return sommets.size();
     }
-
 
     public int nombreAretes() {
         int total = 0;
@@ -73,7 +65,6 @@ public class GrapheFraudeurs {
         }
         return total / 2;
     }
-
 
     public String afficherTextuel() {
         if (sommets.isEmpty()) {

@@ -2,7 +2,6 @@ package fr.eseo.gestionfraudes.modele.fraude;
 
 import java.time.LocalDate;
 
-/** Fraude au moyen d'une calculatrice (marque + programme interdit). */
 public class FraudeCalculatrice extends Fraude {
 
     private String marque;

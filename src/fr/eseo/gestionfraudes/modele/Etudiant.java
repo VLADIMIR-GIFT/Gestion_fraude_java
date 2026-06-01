@@ -1,6 +1,5 @@
 package fr.eseo.gestionfraudes.modele;
 
-
 public class Etudiant {
 
     private String numApprenant;
@@ -49,7 +48,6 @@ public class Etudiant {
     public void setCursus(Cursus cursus) {
         this.cursus = cursus;
     }
-
 
     @Override
     public boolean equals(Object o) {

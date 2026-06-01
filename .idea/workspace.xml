@@ -4,7 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9662f033-9299-4a26-b8b3-6d11a7c0c80c" name="Changes" comment="" />
+    <list default="true" id="9662f033-9299-4a26-b8b3-6d11a7c0c80c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/vue/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fr/eseo/gestionfraudes/service/ExportCSVTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fr/eseo/gestionfraudes/service/GestionFraudesRechercheTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fr/eseo/gestionfraudes/service/StatistiquesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fr/eseo/gestionfraudes/vue/MenuTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/service/DonneesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/service/DonneesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/service/GestionFraudes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/service/GestionFraudes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/modele/FormulaireTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/modele/FormulaireTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/graphe/GrapheFraudeurs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/graphe/GrapheFraudeurs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/Cursus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/Cursus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/Epreuve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/Epreuve.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/Etudiant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/Etudiant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/Formulaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/Formulaire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/Modalite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/Modalite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/fraude/Fraude.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/fraude/Fraude.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/fraude/FraudeCalculatrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/fraude/FraudeCalculatrice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/fraude/FraudeIAG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/fraude/FraudeIAG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/fraude/FraudeIAGConnectee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/fraude/FraudeIAGConnectee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/fraude/FraudePapier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/fraude/FraudePapier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/fraude/TypeFraude.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/fraude/TypeFraude.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/service/DonneesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/service/DonneesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/service/ExportCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/service/ExportCSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/service/GestionFraudes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/service/GestionFraudes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/service/Statistiques.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/service/Statistiques.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fr/eseo/gestionfraudes/modele/FormulaireTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/fr/eseo/gestionfraudes/modele/FormulaireTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +41,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -28,6 +61,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.All in V1_project_devlo_vladimir_bryan_E3e.executor": "Run",
     "JUnit.DonneesTestTest.executor": "Run",
     "JUnit.EtudiantTest.testEgaliteMemeNumero.executor": "Run",
     "JUnit.EtudiantTest.testEgaliteNumerosDifferents.executor": "Run",
@@ -40,7 +74,9 @@
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/vladi/Downloads/V1_project_devlo_vladimir_bryan_E3e",
@@ -57,7 +93,15 @@
       <recent name="C:\Users\vladi\Downloads\V1_project_devlo_vladimir_bryan_E3e" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EtudiantTest.testEgaliteMemeNumero">
+  <component name="RunManager" selected="JUnit.All in V1_project_devlo_vladimir_bryan_E3e">
+    <configuration name="All in V1_project_devlo_vladimir_bryan_E3e" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="V1_project_devlo_vladimir_bryan_E3e" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EtudiantTest.testEgaliteMemeNumero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="V1_project_devlo_vladimir_bryan_E3e" />
       <extension name="coverage">
@@ -92,6 +136,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in V1_project_devlo_vladimir_bryan_E3e" />
         <item itemvalue="JUnit.EtudiantTest.testEgaliteMemeNumero" />
         <item itemvalue="JUnit.EtudiantTest.testEgaliteNumerosDifferents" />
       </list>

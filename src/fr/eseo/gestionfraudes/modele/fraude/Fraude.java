@@ -2,12 +2,6 @@ package fr.eseo.gestionfraudes.modele.fraude;
 
 import java.time.LocalDate;
 
-/**
- * Classe abstraite representant une fraude.
- * Une fraude "generique" n'existe pas : c'est toujours du papier, une
- * calculatrice ou une IA. On la rend donc abstraite et chaque sous-classe
- * doit indiquer son type via getType().
- */
 public abstract class Fraude {
 
     private LocalDate dateReleve;
@@ -21,7 +15,6 @@ public abstract class Fraude {
         this.description = description;
     }
 
-    /** Chaque sous-classe renvoie son propre type : c'est le polymorphisme. */
     public abstract TypeFraude getType();
 
     public LocalDate getDateReleve() {

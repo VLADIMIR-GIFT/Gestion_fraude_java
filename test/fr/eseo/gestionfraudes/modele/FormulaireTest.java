@@ -8,7 +8,6 @@ import org.junit.jupiter.api.Test;
 
 import fr.eseo.gestionfraudes.modele.fraude.FraudeIAG;
 
-
 public class FormulaireTest {
 
 	@Test

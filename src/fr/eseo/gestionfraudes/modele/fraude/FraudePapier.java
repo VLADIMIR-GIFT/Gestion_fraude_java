@@ -2,7 +2,6 @@ package fr.eseo.gestionfraudes.modele.fraude;
 
 import java.time.LocalDate;
 
-/** Fraude au moyen d'une antiseche papier. */
 public class FraudePapier extends Fraude {
 
     private String dimensions;

@@ -14,23 +14,19 @@ import java.time.Duration;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
-
 public class DonneesTest {
 
-
     public static void initialiser(GestionFraudes gestion) {
-
+        
         Etudiant alice = new Etudiant("A2024001", "Dupont", "Alice", Cursus.E1);
         Etudiant bob = new Etudiant("A2024002", "Martin", "Bob", Cursus.E3E);
         Etudiant charlie = new Etudiant("A2024003", "Bernard", "Charlie", Cursus.E4);
         Etudiant diana = new Etudiant("A2024004", "Petit", "Diana", Cursus.E5);
 
-
         Epreuve java = new Epreuve("INF-JAVA-01",
                 LocalDateTime.of(2026, 1, 15, 9, 0), Duration.ofMinutes(120), Modalite.EXAMEN_ECRIT);
         Epreuve reseau = new Epreuve("INF-RES-02",
                 LocalDateTime.of(2026, 2, 10, 14, 0), Duration.ofMinutes(90), Modalite.SUR_ORDINATEUR);
-
 
         Formulaire f1 = new Formulaire();
         f1.setEpreuve(java);
@@ -40,13 +36,11 @@ public class DonneesTest {
         f1.ajouterFraude(new FraudeCalculatrice(LocalDate.of(2026, 1, 15), "Programme interdit", "TI-83", "FORMULES"));
         gestion.ajouterFormulaire(f1);
 
-
         Formulaire f2 = new Formulaire();
         f2.setEpreuve(reseau);
         f2.ajouterEtudiant(charlie);
         f2.ajouterFraude(new FraudeIAG(LocalDate.of(2026, 2, 10), "Utilisation d'une IA", "ChatGPT"));
         gestion.ajouterFormulaire(f2);
-
 
         Formulaire f3 = new Formulaire();
         f3.setEpreuve(reseau);

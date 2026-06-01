@@ -3,14 +3,11 @@ package fr.eseo.gestionfraudes.service;
 import java.io.FileWriter;
 import java.io.IOException;
 
-
 public class ExportCSV {
-
 
     public static boolean exporterStatistiques(Statistiques stats, String chemin) {
         try {
             FileWriter writer = new FileWriter(chemin);
-
 
             writer.write("indicateur;valeur\n");
 

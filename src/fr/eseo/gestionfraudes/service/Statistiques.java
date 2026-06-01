@@ -6,7 +6,6 @@ import fr.eseo.gestionfraudes.modele.Formulaire;
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class Statistiques {
 
     private int nombreFormulaires;
@@ -19,10 +18,8 @@ public class Statistiques {
         calculer(formulaires);
     }
 
-
     private void calculer(List<Formulaire> formulaires) {
         nombreFormulaires = formulaires.size();
-
 
         List<Etudiant> etudiantsVus = new ArrayList<>();
         nombreTotalFraudes = 0;
@@ -36,16 +33,13 @@ public class Statistiques {
         }
         nombreEtudiantsDistincts = etudiantsVus.size();
 
-
         if (nombreFormulaires == 0) {
             moyenneFraudesParFormulaire = 0.0;
             ecartType = 0.0;
             return;
         }
 
-
         moyenneFraudesParFormulaire = (double) nombreTotalFraudes / nombreFormulaires;
-
 
         double sommeDesCarres = 0.0;
         for (Formulaire f : formulaires) {
