@@ -9,8 +9,8 @@ public class FraudeIAGConnectee extends FraudeIAG {
     public FraudeIAGConnectee() {
     }
 
-    public FraudeIAGConnectee(LocalDate dateReleve, String description, String nomService, String adresseIP) {
-        super(dateReleve, description, nomService);
+    public FraudeIAGConnectee(LocalDate dateReleve, String description, String contenu, String nomService, String adresseIP) {
+        super(dateReleve, description, contenu, nomService);
         this.adresseIP = adresseIP;
     }
 

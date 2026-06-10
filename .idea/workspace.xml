@@ -5,34 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9662f033-9299-4a26-b8b3-6d11a7c0c80c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/vue/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fr/eseo/gestionfraudes/service/ExportCSVTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fr/eseo/gestionfraudes/service/GestionFraudesRechercheTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fr/eseo/gestionfraudes/service/StatistiquesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fr/eseo/gestionfraudes/vue/MenuTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/fr/eseo/gestionfraudes/modele/fraude/FraudeSettersTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/modele/fraude/Fraude.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/modele/fraude/Fraude.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/modele/fraude/FraudeCalculatrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/modele/fraude/FraudeCalculatrice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/modele/fraude/FraudeIAG.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/modele/fraude/FraudeIAG.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/modele/fraude/FraudeIAGConnectee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/modele/fraude/FraudeIAGConnectee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/modele/fraude/FraudePapier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/modele/fraude/FraudePapier.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/service/DonneesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/service/DonneesTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/service/GestionFraudes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/service/GestionFraudes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/vue/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/vue/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/graphe/GrapheFraudeursTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/modele/EpreuveTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/modele/EpreuveTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/modele/EtudiantTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/modele/EtudiantTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/modele/FormulaireTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/modele/FormulaireTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/graphe/GrapheFraudeurs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/graphe/GrapheFraudeurs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/Cursus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/Cursus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/Epreuve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/Epreuve.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/Etudiant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/Etudiant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/Formulaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/Formulaire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/Modalite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/Modalite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/modele/fraude/FraudeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/modele/fraude/FraudeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/service/DonneesTestTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/service/ExportCSVTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/service/GestionFraudesRechercheTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/service/GestionFraudesTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/service/StatistiquesTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/V1_project_devlo_vladimir_bryan_E3e/fr/eseo/gestionfraudes/vue/MenuTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/fraude/Fraude.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/fraude/Fraude.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/fraude/FraudeCalculatrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/fraude/FraudeCalculatrice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/fraude/FraudeIAG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/fraude/FraudeIAG.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/fraude/FraudeIAGConnectee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/fraude/FraudeIAGConnectee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/fraude/FraudePapier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/fraude/FraudePapier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/fraude/TypeFraude.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/modele/fraude/TypeFraude.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/service/DonneesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/service/DonneesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/service/ExportCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/service/ExportCSV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/service/GestionFraudes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/service/GestionFraudes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/service/Statistiques.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/service/Statistiques.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/vue/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/eseo/gestionfraudes/vue/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statistiques.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fr/eseo/gestionfraudes/graphe/GrapheFraudeursTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fr/eseo/gestionfraudes/modele/EpreuveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/fr/eseo/gestionfraudes/modele/EpreuveTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fr/eseo/gestionfraudes/modele/EtudiantTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/fr/eseo/gestionfraudes/modele/EtudiantTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/fr/eseo/gestionfraudes/modele/FormulaireTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/fr/eseo/gestionfraudes/modele/FormulaireTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fr/eseo/gestionfraudes/modele/fraude/FraudeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/fr/eseo/gestionfraudes/modele/fraude/FraudeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fr/eseo/gestionfraudes/service/DonneesTestTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fr/eseo/gestionfraudes/service/ExportCSVTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fr/eseo/gestionfraudes/service/GestionFraudesRechercheTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fr/eseo/gestionfraudes/service/GestionFraudesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fr/eseo/gestionfraudes/service/StatistiquesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fr/eseo/gestionfraudes/vue/MenuTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +52,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JavaCoverageOptionsProvider">
+    <option name="myTestTracking" value="true" />
   </component>
   <component name="McpProjectServerCommands">
     <commands />
@@ -63,10 +77,13 @@
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.All in V1_project_devlo_vladimir_bryan_E3e.executor": "Run",
     "JUnit.DonneesTestTest.executor": "Run",
+    "JUnit.EpreuveTest.executor": "Coverage",
     "JUnit.EtudiantTest.testEgaliteMemeNumero.executor": "Run",
     "JUnit.EtudiantTest.testEgaliteNumerosDifferents.executor": "Run",
     "JUnit.FormulaireTest.executor": "Run",
     "JUnit.GrapheFraudeursTest.executor": "Run",
+    "JUnit.fr.eseo.gestionfraudes.modele in V1_project_devlo_vladimir_bryan_E3e.executor": "Coverage",
+    "JUnit.fr.eseo.gestionfraudes.modele.fraude in V1_project_devlo_vladimir_bryan_E3e.executor": "Coverage",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -84,7 +101,7 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "ml.llm.AIAssistantPromptsLibrary",
+    "settings.editor.selected.configurable": "coverage",
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
@@ -93,11 +110,26 @@
       <recent name="C:\Users\vladi\Downloads\V1_project_devlo_vladimir_bryan_E3e" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in V1_project_devlo_vladimir_bryan_E3e">
+  <component name="RunManager" selected="JUnit.fr.eseo.gestionfraudes.modele.fraude in V1_project_devlo_vladimir_bryan_E3e">
     <configuration name="All in V1_project_devlo_vladimir_bryan_E3e" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="V1_project_devlo_vladimir_bryan_E3e" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EpreuveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="V1_project_devlo_vladimir_bryan_E3e" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.eseo.gestionfraudes.modele.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.eseo.gestionfraudes.modele" />
+      <option name="MAIN_CLASS_NAME" value="fr.eseo.gestionfraudes.modele.EpreuveTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,7 +150,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EtudiantTest.testEgaliteNumerosDifferents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="fr.eseo.gestionfraudes.modele in V1_project_devlo_vladimir_bryan_E3e" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="V1_project_devlo_vladimir_bryan_E3e" />
       <extension name="coverage">
         <pattern>
@@ -127,18 +159,32 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="fr.eseo.gestionfraudes.modele" />
-      <option name="MAIN_CLASS_NAME" value="fr.eseo.gestionfraudes.modele.EtudiantTest" />
-      <option name="METHOD_NAME" value="testEgaliteNumerosDifferents" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fr.eseo.gestionfraudes.modele.fraude in V1_project_devlo_vladimir_bryan_E3e" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="V1_project_devlo_vladimir_bryan_E3e" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.eseo.gestionfraudes.modele.fraude.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.eseo.gestionfraudes.modele.fraude" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.fr.eseo.gestionfraudes.modele.fraude in V1_project_devlo_vladimir_bryan_E3e" />
         <item itemvalue="JUnit.All in V1_project_devlo_vladimir_bryan_E3e" />
+        <item itemvalue="JUnit.fr.eseo.gestionfraudes.modele in V1_project_devlo_vladimir_bryan_E3e" />
+        <item itemvalue="JUnit.EpreuveTest" />
         <item itemvalue="JUnit.EtudiantTest.testEgaliteMemeNumero" />
-        <item itemvalue="JUnit.EtudiantTest.testEgaliteNumerosDifferents" />
       </list>
     </recent_temporary>
   </component>
@@ -159,6 +205,17 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -173,5 +230,17 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/V1_project_devlo_vladimir_bryan_E3e$fr_eseo_gestionfraudes_modele_in_V1_project_devlo_vladimir_bryan_E3e.ic" NAME="fr.eseo.gestionfraudes.modele in V1_project_devlo_vladimir_bryan_E3e Coverage Results" MODIFIED="1780390892805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>fr.eseo.gestionfraudes.modele.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/V1_project_devlo_vladimir_bryan_E3e$All_in_V1_project_devlo_vladimir_bryan_E3e.ic" NAME="All in V1_project_devlo_vladimir_bryan_E3e Coverage Results" MODIFIED="1780391211674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/V1_project_devlo_vladimir_bryan_E3e$EpreuveTest.ic" NAME="EpreuveTest Coverage Results" MODIFIED="1780389490026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>fr.eseo.gestionfraudes.modele.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/V1_project_devlo_vladimir_bryan_E3e$fr_eseo_gestionfraudes_modele_fraude_in_V1_project_devlo_vladimir_bryan_E3e.ic" NAME="fr.eseo.gestionfraudes.modele.fraude in V1_project_devlo_vladimir_bryan_E3e Coverage Results" MODIFIED="1781093172196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>fr.eseo.gestionfraudes.modele.fraude.*</FILTER>
+    </SUITE>
   </component>
 </project>

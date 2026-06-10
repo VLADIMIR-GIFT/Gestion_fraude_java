@@ -31,7 +31,7 @@ public class FormulaireTest {
 	@Test
 	public void testAjouterFraude() {
 		Formulaire formulaire = new Formulaire();
-		FraudeIAG fraude = new FraudeIAG(null, "desc", "ChatGPT");
+		FraudeIAG fraude = new FraudeIAG(null, "desc", "contenu", "ChatGPT");
 		formulaire.ajouterFraude(fraude);
 		assertEquals(1, formulaire.getFraudes().size(), "Le nombre de fraudes n'est pas le bon.");
 		assertTrue(formulaire.getFraudes().contains(fraude), "La fraude ajoutee n'est pas dans la liste.");

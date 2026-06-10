@@ -32,21 +32,21 @@ public class DonneesTest {
         f1.setEpreuve(java);
         f1.ajouterEtudiant(alice);
         f1.ajouterEtudiant(bob);
-        f1.ajouterFraude(new FraudePapier(LocalDate.of(2026, 1, 15), "Antiseche cachee", "A6", true));
-        f1.ajouterFraude(new FraudeCalculatrice(LocalDate.of(2026, 1, 15), "Programme interdit", "TI-83", "FORMULES"));
+        f1.ajouterFraude(new FraudePapier(LocalDate.of(2026, 1, 15), "Antiseche cachee", "Formules de derivees", "A6", true));
+        f1.ajouterFraude(new FraudeCalculatrice(LocalDate.of(2026, 1, 15), "Programme interdit", "Liste des constantes physiques", "TI-83", "FORMULES"));
         gestion.ajouterFormulaire(f1);
 
         Formulaire f2 = new Formulaire();
         f2.setEpreuve(reseau);
         f2.ajouterEtudiant(charlie);
-        f2.ajouterFraude(new FraudeIAG(LocalDate.of(2026, 2, 10), "Utilisation d'une IA", "ChatGPT"));
+        f2.ajouterFraude(new FraudeIAG(LocalDate.of(2026, 2, 10), "Utilisation d'une IA", "Generation d'une dissertation", "ChatGPT"));
         gestion.ajouterFormulaire(f2);
 
         Formulaire f3 = new Formulaire();
         f3.setEpreuve(reseau);
         f3.ajouterEtudiant(diana);
         f3.ajouterEtudiant(bob);
-        f3.ajouterFraude(new FraudeIAGConnectee(LocalDate.of(2026, 2, 10), "IA connectee", "Claude", "192.168.1.50"));
+        f3.ajouterFraude(new FraudeIAGConnectee(LocalDate.of(2026, 2, 10), "IA connectee", "Resolution d'un exercice de TP", "Claude", "192.168.1.50"));
         gestion.ajouterFormulaire(f3);
     }
 }

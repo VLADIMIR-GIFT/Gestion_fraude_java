@@ -9,8 +9,8 @@ public class FraudeIAG extends Fraude {
     public FraudeIAG() {
     }
 
-    public FraudeIAG(LocalDate dateReleve, String description, String nomService) {
-        super(dateReleve, description);
+    public FraudeIAG(LocalDate dateReleve, String description, String contenu, String nomService) {
+        super(dateReleve, description, contenu);
         this.nomService = nomService;
     }
 

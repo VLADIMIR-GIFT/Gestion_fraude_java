@@ -10,8 +10,8 @@ public class FraudeCalculatrice extends Fraude {
     public FraudeCalculatrice() {
     }
 
-    public FraudeCalculatrice(LocalDate dateReleve, String description, String marque, String programme) {
-        super(dateReleve, description);
+    public FraudeCalculatrice(LocalDate dateReleve, String description, String contenu, String marque, String programme) {
+        super(dateReleve, description, contenu);
         this.marque = marque;
         this.programme = programme;
     }

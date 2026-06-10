@@ -39,4 +39,32 @@ public class EtudiantTest {
 		assertTrue(texte.contains("Alice"), "Le toString devrait contenir le prenom.");
 		assertTrue(texte.contains("A001"), "Le toString devrait contenir le numero.");
 	}
+
+	@Test
+	public void testSetters() {
+		Etudiant etudiant = new Etudiant();
+		etudiant.setNumApprenant("A042");
+		etudiant.setNom("Martin");
+		etudiant.setPrenom("Bob");
+		etudiant.setCursus(Cursus.E4);
+		assertEquals("A042", etudiant.getNumApprenant(), "Le numero n'a pas ete enregistre.");
+		assertEquals("Martin", etudiant.getNom(), "Le nom n'a pas ete enregistre.");
+		assertEquals("Bob", etudiant.getPrenom(), "Le prenom n'a pas ete enregistre.");
+		assertEquals(Cursus.E4, etudiant.getCursus(), "Le cursus n'a pas ete enregistre.");
+	}
+
+	@Test
+	public void testEgaliteCasParticuliers() {
+		Etudiant etudiant = new Etudiant("A001", "Dupont", "Alice", Cursus.E1);
+		assertTrue(etudiant.equals(etudiant), "Un etudiant devrait etre egal a lui-meme.");
+		assertFalse(etudiant.equals(null), "Un etudiant ne devrait pas etre egal a null.");
+		assertFalse(etudiant.equals("A001"), "Un etudiant ne devrait pas etre egal a une chaine.");
+	}
+
+	@Test
+	public void testEgaliteAvecNumeroNull() {
+		Etudiant etudiant1 = new Etudiant();
+		Etudiant etudiant2 = new Etudiant();
+		assertFalse(etudiant1.equals(etudiant2), "Deux etudiants au numero null ne devraient pas etre egaux.");
+	}
 }

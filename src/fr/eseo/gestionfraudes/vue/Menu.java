@@ -110,29 +110,31 @@ public class Menu {
         int type = lireEntier("Votre choix : ");
         System.out.print("Description : ");
         String description = scanner.nextLine();
+        System.out.print("Contenu : ");
+        String contenu = scanner.nextLine();
 
         if (type == 1) {
             System.out.print("Dimensions : ");
             String dimensions = scanner.nextLine();
             System.out.print("Plie ? (o/n) : ");
             boolean plie = scanner.nextLine().equalsIgnoreCase("o");
-            formulaire.ajouterFraude(new FraudePapier(LocalDate.now(), description, dimensions, plie));
+            formulaire.ajouterFraude(new FraudePapier(LocalDate.now(), description, contenu, dimensions, plie));
         } else if (type == 2) {
             System.out.print("Marque : ");
             String marque = scanner.nextLine();
             System.out.print("Programme : ");
             String programme = scanner.nextLine();
-            formulaire.ajouterFraude(new FraudeCalculatrice(LocalDate.now(), description, marque, programme));
+            formulaire.ajouterFraude(new FraudeCalculatrice(LocalDate.now(), description, contenu, marque, programme));
         } else if (type == 3) {
             System.out.print("Nom du service IA : ");
             String service = scanner.nextLine();
-            formulaire.ajouterFraude(new FraudeIAG(LocalDate.now(), description, service));
+            formulaire.ajouterFraude(new FraudeIAG(LocalDate.now(), description, contenu, service));
         } else if (type == 4) {
             System.out.print("Nom du service IA : ");
             String service = scanner.nextLine();
             System.out.print("Adresse IP : ");
             String ip = scanner.nextLine();
-            formulaire.ajouterFraude(new FraudeIAGConnectee(LocalDate.now(), description, service, ip));
+            formulaire.ajouterFraude(new FraudeIAGConnectee(LocalDate.now(), description, contenu, service, ip));
         } else {
             System.out.println("Type inconnu, fraude ignoree.");
         }

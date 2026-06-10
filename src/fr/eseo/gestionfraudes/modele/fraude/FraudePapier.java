@@ -10,8 +10,8 @@ public class FraudePapier extends Fraude {
     public FraudePapier() {
     }
 
-    public FraudePapier(LocalDate dateReleve, String description, String dimensions, boolean plie) {
-        super(dateReleve, description);
+    public FraudePapier(LocalDate dateReleve, String description, String contenu, String dimensions, boolean plie) {
+        super(dateReleve, description, contenu);
         this.dimensions = dimensions;
         this.plie = plie;
     }
